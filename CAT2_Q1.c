@@ -1,6 +1,6 @@
 /*
-Evans Okoth Okumu
-CT102/G/23443/24
+Meshack Wanyonyi
+CT102/G/21795/23
 */
 
 #include<stdio.h> 
@@ -12,20 +12,20 @@ struct employee{
 	float salary;
 	
 	
-}employee1;
+}employee;
 
 int main(){
-	strcpy(employee1.name,"John Doe");
-	strcpy(employee1.dept,"Human Resources");
-	strcpy(employee1.email,"john.doe@company.com");
-	employee1.id=12345;
+	strcpy(employee.name,"John Doe");
+	strcpy(employee.dept,"Human Resources");
+	strcpy(employee.email,"john.doe@company.com");
+	employee.id=12345;
 	employee1.salary=55000.50;
 	
-	printf("Name:%s\n",employee1.name);
-	printf("Department:%s\n",employee1.dept);
-	printf("Email:%s\n",employee1.email);
+	printf("Name:%s\n",employee.name);
+	printf("Department:%s\n",employee.dept);
+	printf("Email:%s\n",employee.email);
 	printf("Id No:%d\n",employee1.id);
-	printf("Salary:%.2f\n",employee1.salary);
+	printf("Salary:%.2f\n",employee.salary);
 	
 	
 	
