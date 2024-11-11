@@ -1,6 +1,6 @@
 /*
-EVANS OKOTH OKUMU
-CT102/G/23443/24
+Meshack Wanyonyi
+CT102/G/21795/23
 */
 
 
@@ -10,7 +10,6 @@ int main() {
 	int i,j;
     
     int scores[2][2][2] = {{ {65, 92}, {84, 72} },  { {35, 70}, {59, 67} } };
-
     
     printf("Matrix 1\n");
     for ( i = 0; i < 2; i++) {  
